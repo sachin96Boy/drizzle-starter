@@ -59,12 +59,12 @@ Database container must run: `docker-compose up -d` sets up PostgreSQL on localh
 
 ## Key Files Reference
 
-| File | Purpose |
-|------|---------|
-| [src/main.ts](src/main.ts) | App bootstrap; configures port (env: PORT, default 3000) |
-| [src/app.module.ts](src/app.module.ts) | Root module; import new feature modules here |
-| [src/app.controller.ts](src/app.controller.ts) | Route handler example |
-| [nest-cli.json](nest-cli.json) | NestJS generator config |
+| File                                           | Purpose                                                  |
+| ---------------------------------------------- | -------------------------------------------------------- |
+| [src/main.ts](src/main.ts)                     | App bootstrap; configures port (env: PORT, default 3000) |
+| [src/app.module.ts](src/app.module.ts)         | Root module; import new feature modules here             |
+| [src/app.controller.ts](src/app.controller.ts) | Route handler example                                    |
+| [nest-cli.json](nest-cli.json)                 | NestJS generator config                                  |
 
 ## Common Tasks for AI Agents
 
