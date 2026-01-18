@@ -6,4 +6,4 @@ services:
     restart: always
     environment:
       POSTGRES_PASSWORD: drizzledb
-      POSTGRESS_DB: drizzledb
+      POSTGRES_DB: drizzledb
